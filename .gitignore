@@ -1,0 +1,40 @@
+# Go
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.out
+
+# Go vendor
+vendor/
+
+# IDE/editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Config & env
+.env
+*.env
+config.yaml
+
+# Storage (实际文件存储目录)
+backend/storage/
+
+# 前端 node_modules
+frontend/node_modules/
+
+# 前端打包产物
+frontend/dist/
+
+# Mac/Linux/Windows系统文件
+.DS_Store
+Thumbs.db 
